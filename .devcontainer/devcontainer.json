@@ -7,11 +7,14 @@
 	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
 	"customizations": {
 		"vscode": {
+			"settings": {
+				"workbench.colorTheme": "Visual Studio Light"
+			},
 			"extensions": [
 				"vmware.vscode-boot-dev-pack"
 			]
 		}
-	}
+	},
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {}
